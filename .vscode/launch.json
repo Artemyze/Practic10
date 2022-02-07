@@ -1,0 +1,92 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "(gdb) Запустить",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "Введите имя программы, например: ${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+          {
+              "description": "Включить автоматическое форматирование для gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+          }
+      ]
+    },
+    {
+      "name": "(gdb) Запустить",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "Введите имя программы, например: ${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+          {
+              "description": "Включить автоматическое форматирование для gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+          }
+      ]
+    },
+    {
+      "name": "(gdb) Запуск канала",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "Введите имя программы, например: ${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "/usr/bin/ssh",
+        "pipeArgs": [],
+        "pipeCwd": ""
+      },
+      "MIMode": "gdb",
+      "setupCommands": [
+          {
+              "description": "Включить автоматическое форматирование для gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+          }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        ""
+      ],
+      "stopAtEntry": false,
+      "cwd": "/run/media/artem/CE8CDB7F8CDB608F/Артем/Контрольные работы/Основы программирования/Контрольная 3/Практическая 10(сортировка массивов)/Practic10",
+      "environment": [],
+      "program": "/run/media/artem/CE8CDB7F8CDB608F/Артем/Контрольные работы/Основы программирования/Контрольная 3/Практическая 10(сортировка массивов)/Practic10/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
